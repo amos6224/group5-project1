@@ -5,3 +5,6 @@ We decided to study borough related crimes, times of high crime activities, date
     <img src="nypd image.jpeg" style="width:500px;" />
 </div>
 <br />
+
+# Introduction
+
