@@ -8,3 +8,6 @@ We decided to study borough related crimes, times of high crime activities, date
 
 # Introduction
 
+# Gender relaetd crime
+
+Statistics have been consistent in reporting that men commit more criminal acts than women. 
