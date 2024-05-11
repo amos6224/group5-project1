@@ -11,3 +11,7 @@ We decided to study borough related crimes, times of high crime activities, date
 # Gender relaetd crime
 
 Statistics have been consistent in reporting that men commit more criminal acts than women. 
+<div style="text-align:center">
+    <img src="justice_102275273.jpg" style="width:500px;" />
+</div>
+<br />
