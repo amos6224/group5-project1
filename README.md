@@ -19,14 +19,14 @@ Our EDA was meticulously conducted, drawing insights from data spanning 2023 and
 
 The dataset comprised several key variables instrumental in our analysis:
 
-- Arrest_date: Date of arrest
-- Ofns_desc: Offense description
-- Arrest_boro: Borough of arrest
-- Age_group: Age group
-- Perp_sex: Gender
-- Perp_race: Race
-- Latitude: Geographic latitude
-- Longitude: Geographic longitude
+    - Arrest_date: Date of arrest
+    - Ofns_desc: Offense description
+    - Arrest_boro: Borough of arrest
+    - Age_group: Age group
+    - Perp_sex: Gender
+    - Perp_race: Race
+    - Latitude: Geographic latitude
+    - Longitude: Geographic longitude
 
 To facilitate meaningful comparisons over time, we normalized the data by multiplying it by 365 to obtain an annualized rate.
 
