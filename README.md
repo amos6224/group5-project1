@@ -16,14 +16,14 @@ This EDA can be useful for law and enforcement and government data crime. Our pu
 
 # Important variables for the dataset
 
-arrest_date': Arrest date
-ofns_desc': Offense description
-arrest_boro':Arrest boro
-age_group': Age group
-perp_sex': Sex'
-perp_race': Race
-latitude': Latitude
-longitude': Longitude
+    arrest_date': Arrest date
+    ofns_desc': Offense description
+    arrest_boro':Arrest boro
+    age_group': Age group
+    perp_sex': Sex'
+    perp_race': Race
+    latitude': Latitude
+    longitude': Longitude
 
 Multiply by 365 to normalize over the number of days in a year to get an annual rate
 Group by 'boro' and 'crime_type' and count occurrences
