@@ -26,14 +26,14 @@ This EDA can be useful for law and enforcement and government data crime. Our pu
     longitude': Longitude
 
 Multiply by 365 to normalize over the number of days in a year to get an annual rate
-Group by 'boro' and 'crime_type' and count occurrences
-Filter for 'FELONY ASSAULT' in the Bronx/Queens
-Sort offenses by counts in descending order
-1ROBBERY,OPEN AREA UNCLASSIFIED
-2.RAPE 
-3.ASSAULT
-4.CONTROLLED SUBSTANCE, POSSESS
-5.ASSAULT 2,1,UNCLASSIFIED
+# Group by 'boro' and 'crime_type' and count occurrences
+# Felony assault in the Bronx/Queens
+# Offenses by counts in descending order
+    1.ROBBERY,OPEN AREA UNCLASSIFIED
+    2.RAPE 
+    3.ASSAULT
+    4.CONTROLLED SUBSTANCE, POSSESS
+    5.ASSAULT 2,1,UNCLASSIFIED
 
 top 15 offenses2023/24
 grouped_by_boro_2024=original_df.groupby('Arrest boro')[['Arrest number"
