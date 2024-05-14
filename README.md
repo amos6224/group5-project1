@@ -12,7 +12,7 @@ NYC has a variety of open and transparent data for our study . In this case we u
 
 We did our EDA based on evidence from 2023/2024. Basing our analysis grouping by borough related crimes. Sorting offenses by count, race, gender. 
 
-This EDA can be useful for law and enforcement and government data crime. Our purpose with this project is to help our communities, examining factors, patterns, and variables in NYC crime rates.
+This EDA can be useful for law and enforcement and government data crime. Our purpose with this project is to help our communities, examining factors, patterns, and variables in NYC crime rates with the help of AI.
 
 # Important variables for the dataset
 
@@ -26,7 +26,27 @@ This EDA can be useful for law and enforcement and government data crime. Our pu
     longitude': Longitude
 
 Multiply by 365 to normalize over the number of days in a year to get an annual rate
-# Group by 'boro' and 'crime_type' and count occurrences
+# Group by borough and crime type and count occurrences
+    
+# Combined plot for all boroughs
+plt.figure(figsize=(15, 8))
+for boro_key, boro_label in zip(borough_keys, borough_labels):
+    # Filter data for the current borough
+    borough_data = historical_df[historical_df['Arrest boro'] == boro_key]
+    
+    # Group by arrest_date and count the occurrences
+    daily_counts = borough_data.groupby('Arrest date').size()
+    
+    # Plotting
+    daily_counts.plot(kind='line', label=boro_label)
+
+plt.title('Daily Arrests in All Boroughs')
+plt.xlabel('Date')
+plt.ylabel('Number of Arrests')
+plt.legend(title='Borough')
+plt.grid(True)
+plt.show()
+
 # Felony assault in the Bronx/Queens
 # Offenses by counts in descending order
     1.ROBBERY,OPEN AREA UNCLASSIFIED
@@ -50,3 +70,5 @@ Statistics have been consistent in reporting that men commit more criminal acts 
     <img src="justice_102275273.jpg" style="width:500px;" />
 </div>
 <br />
+# Conclusion
+From our EDA above, we notice that there seems to be a marked difference in the average length of incidents across the years, NYC is not as dangerous as 2014 but is more dangerous since Covid happened for obvious reasosns. and felony type. Notably, we see that, on average, sex-related felonies seem to have a longer average incident length than drug-related and weapons-related felonies, whether we input end dates for crimes or exclude NAs. In terms of boroughs, Bronx ranks the highest for average length of felonies when inputting end dates for crimes; Staten Island slightly ranks higher than the rest of the boroughs when we exclude NAs.
