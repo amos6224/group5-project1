@@ -14,7 +14,8 @@ We did our EDA based on evidence from 2023/2024. Basing our analysis grouping by
 
 This EDA can be useful for law and enforcement and government data crime. Our purpose with this project is to help our communities, examining factors, patterns, and variables in NYC crime rates.
 
-#Important variables for the dataset
+# Important variables for the dataset
+
 arrest_date': Arrest date
 ofns_desc': Offense description
 arrest_boro':Arrest boro
