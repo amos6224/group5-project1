@@ -60,6 +60,9 @@ Statistics have been consistent in reporting that men commit more criminal acts 
 
 # Age related crime
 
+![image](https://github.com/amos6224/group5-project1/assets/163084245/728fe82d-9f86-4699-9f32-93e8874d3fc0)
+
+
 # Conclusion
 
 From our EDA above, we notice that there seems to be a marked difference in the average length of incidents across the years, NYC is not as dangerous as 2014 but is more dangerous since Covid happened for obvious reasosns. and felony type. Notably, we see that, on average, sex-related felonies seem to have a longer average incident length than drug-related and weapons-related felonies, whether we input end dates for crimes or exclude NAs. In terms of boroughs, Bronx ranks the highest for average length of felonies when inputting end dates for crimes; Staten Island slightly ranks higher than the rest of the boroughs when we exclude NAs.
