@@ -27,25 +27,8 @@ This EDA can be useful for law and enforcement and government data crime. Our pu
 
 Multiply by 365 to normalize over the number of days in a year to get an annual rate
 # Group by borough and crime type and count occurrences
-    
-# Combined plot for all boroughs
-plt.figure(figsize=(15, 8))
-for boro_key, boro_label in zip(borough_keys, borough_labels):
-    # Filter data for the current borough
-    borough_data = historical_df[historical_df['Arrest boro'] == boro_key]
-    
-    # Group by arrest_date and count the occurrences
-    daily_counts = borough_data.groupby('Arrest date').size()
-    
-    # Plotting
-    daily_counts.plot(kind='line', label=boro_label)
+![image](https://github.com/amos6224/group5-project1/assets/163084245/1588d0d2-b74d-4475-9d62-47fd71668a66)
 
-plt.title('Daily Arrests in All Boroughs')
-plt.xlabel('Date')
-plt.ylabel('Number of Arrests')
-plt.legend(title='Borough')
-plt.grid(True)
-plt.show()
 
 # Felony assault in the Bronx/Queens
 # Offenses by counts in descending order
@@ -65,11 +48,17 @@ zrrest by sex age and Borough
 
 # Gender related crime
 
+![image](https://github.com/amos6224/group5-project1/assets/163084245/e2f82566-0b1a-4cf3-a20c-980f6435d1a0)
+
+
+
 Statistics have been consistent in reporting that men commit more criminal acts than women. 
 <div style="text-align:center">
     <img src="justice_102275273.jpg" style="width:500px;" />
 </div>
 <br />
+
+# Age related crime
 
 # Conclusion
 
