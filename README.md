@@ -53,3 +53,4 @@ In terms of age-related crime patterns, our findings underscored significant var
 
 In conclusion, our extensive EDA offers valuable insights into the evolving landscape of crime in NYC, elucidating distinct crime patterns by borough, felony type, and demographic characteristics. The Bronx emerges as a focal point for criminal activity, with Staten Island exhibiting marginally elevated crime rates compared to other boroughs. These insights serve as a cornerstone for informed decision-making processes among law enforcement agencies and policymakers, ultimately contributing to the safety, security, and well-being of NYC residents. Moving forward, continued vigilance, proactive measures, and data-driven interventions are imperative to address emerging challenges and foster a safer, more resilient cityscape for all inhabitants.
 
+We used: Chat GPT, Co PILOT
